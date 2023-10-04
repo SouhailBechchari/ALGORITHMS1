@@ -1,0 +1,12 @@
+AGORITHME_SM
+VARIABLE S,n,X : reel
+debut
+  S = 0
+    ECRIRE("TAPEZ LA VALEUR DE N")
+    lire (n)
+   pour i de 0 a n faire 
+    X=10^i
+    S = S+X
+    ECRIRE(S)
+fin pour
+fin
