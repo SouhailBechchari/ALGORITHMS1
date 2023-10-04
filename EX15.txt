@@ -1,0 +1,21 @@
+ALGORITHME_MOYENNE
+VARIABLE A,B,C : reel
+DEBUT 
+    ECRIRE("tapez les trois notes")
+    LIRE(A,B,C)
+  X <= (A + B + C) / 3
+
+ si X=>16 ALORS :
+  ECRIRE("tres bien") 
+ si X=> 14 ET X<16 ALORS :
+  ECRIRE("bien")
+ si X=>12 ET X< 14 ALORS  :
+  ECRIRE("assez bien")
+ si X=>10 ET X < 12 ALORS :
+ ECRIRE ("passable")
+ si non ECRIRE("c est insuffisant")
+FIN SI
+FIN SI
+FIN SI
+FIN SI
+FIN
