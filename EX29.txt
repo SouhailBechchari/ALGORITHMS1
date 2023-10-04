@@ -1,0 +1,14 @@
+ALGORITHME_POPULATION
+VARIABLE popMarrakech, popAgadir , annees : enier
+DEBUT
+  popMarrakech = 1000000
+  popAgadir = 500000
+  annees = 0
+
+  Tant que popAgadir <= popMarrakech faire
+    popMarrakech = popMarrakech + 50000
+    popAgadir = popAgadir + (popAgadir * 0.08)
+    annees = annees + 1
+Fin Tant que
+ecrire("apres", annees, "années la population Agadir dépassera celle de Marrakech.")
+FIN
