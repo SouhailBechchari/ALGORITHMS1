@@ -1,0 +1,11 @@
+ALGORITHME_NombresSuivants
+
+   A,i : ENTIER
+DEBUT
+    ÉCRIRE ("Veuillez entrer un nombre de départ : ")
+    LIRE (A)
+    POUR i DE 1 À 10 PAS 1 faire
+        ecrire(A + i)
+    FIN POUR
+
+FIN

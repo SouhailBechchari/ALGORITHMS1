@@ -1,0 +1,26 @@
+ALGORITHME_OP
+VARIABLE A,B : reel
+         OP : CARACTERE
+DEBUT
+
+    ECRIRE("tapez le premier reel :"))
+    lIRE (A)
+    ECRIRE("tapez le deuxieme reel :"))
+    LIRE(B)
+    ECRIRE("tapez un operateur :"))
+    LIRE(OP)
+  si OP == "+" :
+    ECRIRE("le resultat est : ", A + B )
+  si OP == "-" :
+   ECRIRE("le resultat est : ", A - B )
+  si OP == "*" :
+    ECRIRE("le resultat est : ", A * B )
+  si OP == "/" :
+    ECRIRE("le resultat est : ", A / B )
+  si non ECRIRE("operateur non disponible")
+FIN SI
+FIN SI
+FIN SI
+SIN SI
+FIN SI
+FI
