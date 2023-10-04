@@ -1,0 +1,19 @@
+ALGORITHME_ECHANGE_COND
+Variable A,B,C,D : entier
+Debut
+    ecrire("taper de valeurs")
+    lire(A,B)
+ C <= B
+ D <= A
+    Si (A > 0 ET B > 0) OU (A < 0 ET B < 0) Alors
+ 
+  B <= A
+  A <= C
+         ECRIRE("la valeur de A est", A,"la valeur de B est', B)
+    si non
+  A <= A + C
+  B <= A * B
+         ECRIRE("la valeur de A est", A, "la valeur de B est ", B)
+
+FIN SI
+FIN

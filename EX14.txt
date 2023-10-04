@@ -1,0 +1,16 @@
+ALLGORITHME_AGE
+VARIABLE AGE : ENTIER
+   DEBUT 
+       ECRIRE("tapez votre age")
+       LIRE ("AGE")
+    si AGE=>6 ET AGE<=7 ALORS :
+ECRIRE("poussin")
+    si AGE=>8 ET AGE<=9 ALORS:
+ECRIRE("PUPILE")
+    si AGE=>10 ET AGE<=11 ALORS :
+ECRIRE("minime")
+    sinon ECRIRE("CADET")
+FINSI
+FINSI
+FINSI
+FIN 

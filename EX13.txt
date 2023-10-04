@@ -1,0 +1,17 @@
+ALGORITHME_FACTURE
+VARIABLE n, facture :  reel
+
+debut
+
+    ECRIRE("Entrez le nombre de photocopies effectuées : "))
+    LIRE ( n )
+facture <= 0
+   si n <= 10 alors :
+     facture <= n * 0.30
+   si n <= 30 alors :
+     facture <= (10 * 0.30) + ((n - 10) * 0.25)
+   si non:
+    facture <= (10 * 0.30) + (20 * 0.25) + ((n - 30) * 0.20)
+FIN SI 
+FIN SI
+FIN

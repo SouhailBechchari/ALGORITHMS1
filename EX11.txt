@@ -1,0 +1,10 @@
+Algorithme signe
+variable A,B : entier
+ecrire (" tapez deux entiers )
+lire (A,B)
+    Si (A > 0 ET B > 0) OU (A < 0 ET B < 0) Alors
+        ecrire( "Les deux nombres sont du même signe." )
+    Sinon
+        ecrire( "Les deux nombres ne sont pas du même signe.")
+    Fin Si
+Fin 
