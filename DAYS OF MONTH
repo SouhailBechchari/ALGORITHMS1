@@ -1,7 +1,8 @@
 ALGORITHME_MOIS
 VARIABLE mois,annee : entier
-ECRIRE("tapez le nombre du mois et l annee")
-LIRE(mois,anne)
+DEBUT
+  ECRIRE("tapez le nombre du mois et l annee")
+  LIRE(mois,anne)
     Si mois =  1 OU mois = 3 OU mois = 5 OU mois = 7 OU mois = 8 OU mois = 10 OU mois = 12 alors :
         ecrire("LE NOMBRE DU JOURS EST 31")
     Sinon si mois = 4 OU mois = 6 OU mois =  9 OU mois =  11 alors :
