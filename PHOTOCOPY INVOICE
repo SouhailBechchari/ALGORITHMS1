@@ -1,9 +1,7 @@
 ALGORITHME_FACTURE
 VARIABLE n, facture :  reel
-
 debut
-
-    ECRIRE("Entrez le nombre de photocopies effectuées : "))
+    ECRIRE("Entrez le nombre de photocopies effectuÃ©es : "))
     LIRE ( n )
 facture <= 0
    si n <= 10 alors :
