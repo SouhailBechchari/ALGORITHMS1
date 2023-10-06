@@ -10,5 +10,5 @@ DEBUT
     popAgadir = popAgadir + (popAgadir * 0.08)
     annees = annees + 1
 Fin Tant que
-ecrire("apres", annees, "années la population Agadir dépassera celle de Marrakech.")
+ecrire("apres", annees, "annÃ©es la population Agadir dÃ©passera celle de Marrakech.")
 FIN
