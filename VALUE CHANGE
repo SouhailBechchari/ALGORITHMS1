@@ -12,7 +12,7 @@ Debut
          ECRIRE("la valeur de A est", A,"la valeur de B est', B)
     si non
   A <= A + C
-  B <= A * B
+  B <= D * B
          ECRIRE("la valeur de A est", A, "la valeur de B est ", B)
 
 FIN SI
