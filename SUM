@@ -1,4 +1,4 @@
-AGORITHME_SM
+AGORITHME_SOMME
 VARIABLE S,n,X : reel
 debut
   S = 0
@@ -8,5 +8,5 @@ debut
     X=10^i
     S = S+X
     ECRIRE(S)
-fin pour
+  fin pour
 fin
