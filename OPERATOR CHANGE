@@ -11,11 +11,11 @@ DEBUT
     LIRE(OP)
   si OP == "+" :
     ECRIRE("le resultat est : ", A + B )
-  si OP == "-" :
+  SI NON  si OP == "-" :
    ECRIRE("le resultat est : ", A - B )
-  si OP == "*" :
+  SI NON si OP == "*" :
     ECRIRE("le resultat est : ", A * B )
-  si OP == "/" :
+  SI NON si OP == "/" :
     ECRIRE("le resultat est : ", A / B )
   si non ECRIRE("operateur non disponible")
 FIN SI
