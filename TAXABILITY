@@ -1,17 +1,17 @@
-
+U
 ALGORITHME_IMPOT
 VARIABLE sexe : chaine de caractere
-         âge : entier
+         Ã¢ge : entier
 
 
 
 ECRIRE("tapez votre sexe (homme ou femme).)
 LIRE(sexe)
-ECRIRE("tapez votre âge.)
+ECRIRE("tapez votre Ã¢ge.)
 lire (age)
- Si le sexe est "homme" et âge>20, alors:
+ Si le sexe est "homme" et Ã¢ge>20, alors:
      ECRIRE( "Cet habitant est imposable." )
- Sinon  si le sexe est "femme" et  âge> 18 et âge<35  alors :
+ Sinon  si le sexe est "femme" et  Ã¢ge> 18 et Ã¢ge<35  alors :
       ECRIRE("Cette habitante est imposable.")
  Sinon 
      ECRIRE( "Cet habitant n'est pas imposable.")
