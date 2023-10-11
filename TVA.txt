@@ -1,0 +1,23 @@
+ALGORITHME_TVA
+VARIABLES prix,TTC : reel
+          categorie : caractere
+Debut
+    Ecrire("tapez le prix du produit " )
+    lire (prix)
+    Ecrire("tapez la categorie du produit A ou B ou C " )
+    lire(categorie)
+   SI categorie = B alors 
+    TTC <-- prix+prix * 0.20
+    ECRIRE(" le prix ttc est  :", TTC )
+   si non  SI categorie = A alors 
+    TTC <-- prix+prix * 0.07
+    ECRIRE(" le prix ttc est  :", TTC )
+   si non SI categorie = C alors  
+    TTC <-- prix+prix * 0.25
+    ECRIRE(" le prix ttc est  :", TTC )
+     si non ECRIRE(" categorie n existe pas ")
+FIN SI
+FIN SI
+FIN
+
+    
