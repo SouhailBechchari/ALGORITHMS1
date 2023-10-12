@@ -1,0 +1,11 @@
+Variables A,i : entier
+
+debut
+    ecrire("tapez un entier")
+   lire(A)
+i<--A
+tant que i <> A+10 faire
+i <-- i + 1
+ecrire(i)
+fin tant que 
+fin
